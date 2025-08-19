@@ -1,6 +1,6 @@
 ## NAME: PAIDA RAM SAI
 ## REG NO: 212223110034
-## DATE : 19/08/2025
+
 # Led control using Arduino
 
 ## AIM
