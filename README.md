@@ -1,4 +1,7 @@
-# Led-control-using-Arduino
+## NAME: PAIDA RAM SAI
+## REG NO: 212223110034
+## DATE : 19/08/2025
+# Led control using Arduino
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
@@ -58,9 +61,34 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
+<img width="1210" height="811" alt="image" src="https://github.com/user-attachments/assets/9b0aff7e-ef35-4148-9c63-e8c78be620c5" />
+
 
 ## PROGRAM
+```
 
-## OUTPUT
+void setup() {
+  pinMode(11,OUTPUT);
+  pinMode(4,INPUT);
+}
 
-## RESULT
+void loop() {
+  int button_status=digitalRead(4);
+  if (button_status==HIGH){
+    digitalWrite(11,HIGH);
+    delay(1000);
+    digitalWrite(11,LOW);
+    delay(1000);
+  }
+  else
+    digitalWrite(11,LOW);
+}
+
+```
+## OUTPUT:
+
+<img width="1749" height="854" alt="Screenshot 2025-08-19 111218" src="https://github.com/user-attachments/assets/5a61c5e8-9191-4bbf-ac44-8d39b4f1b2d9" />
+
+
+## RESULT:
+The project designed and implemented a system for LED control using an Arduino microcontroller and a push button successfully.
