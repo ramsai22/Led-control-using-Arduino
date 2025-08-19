@@ -1,7 +1,7 @@
 ## NAME: PAIDA RAM SAI
 ## REG NO: 212223110034
 
-# Led control using Arduino
+## EXP NO 1: Led control using Arduino
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
@@ -86,7 +86,11 @@ void loop() {
 
 ```
 ## OUTPUT:
+### LED OFF:
+<img width="1917" height="980" alt="Screenshot 2025-08-19 111933" src="https://github.com/user-attachments/assets/d71f5e72-e1fe-413b-acd3-68f2adee64c5" />
 
+
+### LED ON:
 <img width="1749" height="854" alt="Screenshot 2025-08-19 111218" src="https://github.com/user-attachments/assets/5a61c5e8-9191-4bbf-ac44-8d39b4f1b2d9" />
 
 
